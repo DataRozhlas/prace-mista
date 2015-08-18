@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Integrovaný portál MPSV, http://portal.mpsv.cz                        -->
+<!-- OKsystem s.r.o., Na Pankráci 125, 140 21 Praha 4                      -->
+<!-- +420 244 021 111, webadmin.portal@oksystem.cz, http://www.oksystem.cz -->
+<resource lang="cs">
+	<text id="text.onlineInfo.firNenabizetVmProMk.ano">Zaměstnavatel apriori vyloučil všechna svá volná místa z nabídky pro modré karty.</text>
+	<text id="text.vm.pocet">Počet volných míst</text>
+	<text id="text.onlineInfo.vzdelaniZm.ano">Požadované vzdělání je vysokoškolské nebo vyšší odborné.</text>
+	<text id="errorpage.title">Chyba aplikace Volná místa</text>
+	<text id="text.vm.pro.abs.ss">Volná místa pro absolventy středních škol</text>
+	<text id="error.vyber.dny">Zadejte počet dnů, za které chcete vybrat volná místa a vyberte okres ve kterém chcete hledat volná místa.</text>
+	<text id="error.vyber.profese">Zadejte název profese a obec, ve které chcete profesi hledat.</text>
+	<text id="text.xml.form.title">Stažení volných míst ve formátu XML</text>
+	<text id="text.rozsah.okres">vybraný okres</text>
+	<text id="xml.vm.body.title">Volná místa evidovaná na úřadech práce</text>
+	<text id="text.vm.zm.statni.sparava.samosprava">Volné místo pro státní správu nebo samosprávu.</text>
+	<text id="text.okres.zkratka">okr.</text>
+	<text id="text.vm.nezobrazuje.se">Nezobrazuje se! Informace o volném místě obdržíte na (ÚP).</text>
+	<text id="text.vm.pozadovana.vzdelani">Požadovaná vzdělání</text>
+	<text id="text.vm.zk.zamestanavatel.nedal.souhlas">Zaměstnavatel nedal souhlas se zveřejněním volného místa pro zelené karty.</text>
+	<text id="text.interny.statistiky.vyp">&lt;h2 style=&quot;text-align: center&quot;&gt;Interní statistiky jsou vypnuté.&lt;br&gt;Nastavení se provádí v souboru WEB.XML.&lt;/h2&gt;</text>
+	<text id="text.vm.mk.nastaveni.nenabizet.pro.mpsv.ano">Volné místo &lt;b&gt;má&lt;/b&gt; nastaven &lt;b&gt;příznak MPSV pro vyjmutí&lt;/b&gt; z nabídky pro modré karty.</text>
+	<text id="text.hledani.ostatni">Podmínkám vyhovuje &lt;span class=&quot;OKbold&quot;&gt;{0,number,integer}&lt;/span&gt; nabídek zaměstnavatelů, které obsahují</text>
+	<text id="text.rozsah.okolni.okresy">Celý okres a okolní okresy</text>
+	<text id="xml.vm.detail.tag.a.title">Detail volného místa na serveru</text>
+	<text id="text.vm.pro.ss.link">uchazeče s maturitou</text>
+	<text id="text.zpet.hledani">Zpět na hledání volných míst</text>
+	<text id="text.hledani.obec.doprava">Volná místa byla hledána podle dopravního spojení z obce &lt;span class=&quot;OKbold&quot;&gt;{0}&lt;/span&gt;.</text>
+	<text id="text.vm.zm.nastaveni">Nastavení pro zaměstnanecké karty</text>
+	<text id="text.vycisti">Vyčistit</text>
+	<text id="text.form.zamest.karty.vyjmute">Jen vyjmutá z ZM</text>
+	<text id="text.rychle.hledani.vm">Rychlé hledání ve volných místech</text>
+	<text id="text.onlineInfo.pvmDatumVyrazeni.neni.nastaveno">Volné místo nemá nastaveno datum vyřazení.</text>
+	<text id="text.vm.zm.zamestanavatel.nedal.souhlas">Zaměstnavatel nedal souhlas se zařazením volného místa do evidence pro zaměstnanecké karty.</text>
+	<text id="text.vm.upozorneni">&lt;span class=&quot;OKbold&quot;&gt;Upozornění:&lt;/span&gt;&lt;br&gt;&lt;i&gt;Všechny oficiální informace poskytované úřady práce jsou uveřejňovány pouze prostřednictvím portálu MPSV. Portál MPSV je službou veřejnou - MPSV ani úřady práce nejsou odpovědné za subjekty, které si libovolně stahují informace na své internetové stránky a do svých periodik, a ani neručí za aktuálnost takových zveřejněných informací o volných místech. MPSV ani úřady práce proto neodpovídají za pravdivost informací vyskytujících se na internetových stránkách jiných subjektů. Veškeré služby a informace nabízené úřady práce jsou zásadně bezplatné.&lt;/i&gt;</text>
+	<text id="text.hledani.id.nenalezeno">Nabídka volného místa nebyla nalezena. Nabídka volného místa neexistuje, nebo skončila její platnost.</text>
+	<text id="js.zmena.vm.otazka">Přejete si provést změnu volného místa?</text>
+	<text id="text.vm.vhod.absol.ss">absolventy středních škol</text>
+	<text id="text.info.zasilani.vm.rozsir">na záložce &lt;a href=&quot;{0}&quot; class=&quot;OKdistinct2 OKbold&quot; title=&quot;Rozšířené hledání volných míst&quot;&gt;Rozšířené hledání&lt;/a&gt;</text>
+	<text id="text.vm.kam.se.hlasit">Kam se hlásit</text>
+	<text id="text.xml.sablona">Šablona XML</text>
+	<text id="text.onlineInfo.firPorusuje.bude.platit">Volné místo bude vyřazeno z nabídky od {0} do {1} z důvodu uložené pokuty zaměstnavateli za porušení předpisů.</text>
+	<text id="text.onlineInfo.souhlasZamMk.ano">Volné místo má nastaven souhlas zaměstnavatele se zařazením do evidence pro modré karty.</text>
+	<text id="text.celkem.vm">V databázi úřadů práce je &lt;span class=&quot;OKbold&quot;&gt;{0}&lt;/span&gt; nabídek zaměstnavatelů, které obsahují &lt;span class=&quot;OKbold&quot;&gt;{1}&lt;/span&gt; volných míst.</text>
+	<text id="info.vm.autor.firma.znak">&lt;sup&gt;1)&lt;/sup&gt;</text>
+	<text id="text.vm.smennost.dvou">Dvousměnný provoz</text>
+	<text id="text.hledani.vhodnost.prefix">Můžete zkusit hledat i ve skupině profesí označených jako</text>
+	<text id="text.jizdni.rady">jízdní řády</text>
+	<text id="text.onlineInfo.souhlasZamZm.ano">Volné místo má nastaven souhlas zaměstnavatele se zařazením do evidence pro zaměstnanecké karty.</text>
+	<text id="attr.RzId.name">ID reakce na záznam</text>
+	<text id="text.captcha.img">Obrázek s textem</text>
+	<text id="text.vm.id.centrum">číslo volného místa</text>
+	<text id="text.form.zelene.karty.souhlas.zam">Nastaven souhlas zaměstnavatele se ZK</text>
+	<text id="text.xml.sablona.8.xsl">volnamistaA3LandscapeDetail.xsl</text>
+	<text id="text.vm.zk.nastaveni">Nastavení pro zelené karty</text>
+	<text id="text.vm.vhodna.pro.nevid">nevidomé</text>
+	<text id="text.oznaceni.sms.prefix">Volná místa poslaná pomocí</text>
+	<text id="text.pocet.reakci">Celkem odpovědí na moje dotazy: &lt;strong&gt;{0}&lt;/strong&gt;, z toho nevyřízených: &lt;strong&gt;{1}&lt;/strong&gt;.</text>
+	<text id="text.dotaz.vm.predan">Dotaz na volné místo byl předán zaměstnavateli</text>
+	<text id="text.vm.s">Volná místa s</text>
+	<text id="text.onlineInfo.pvmSouhlasZamZm.ano">Volné místo má nastaven souhlas zaměstnavatele se zařazením do evidence pro zaměstnanecké karty.</text>
+	<text id="text.rozsah">Rozsah</text>
+	<text id="text.poznamka.pod.carou">Poznámka pod čarou</text>
+	<text id="text.vm.pro.vyuc">Volná místa pro uchazeče vyučené</text>
+	<text id="text.hledani.id.nalezeno.mnoho">Bylo nalezeno více než jedno volné místo.</text>
+	<text id="text.vm.znalosti">Jazykové znalosti</text>
+	<text id="text.rezim.zm">Hledání volných míst obsaditelných držiteli zaměstnanecké karty</text>
+	<text id="text.onlineInfo.pvmDo.vyprsi.platnost">Volné místo obsahuje nabídku zaměstnání na dobu určitou do {0}.</text>
+	<text id="text.onlineInfo.vm.zadna.historie.poctu.vm">Pracovní místo není v centrálních evidencích volných pracovních míst obsaditelných držiteli zaměstnanecké karty nebo modré karty.</text>
+	<text id="error.doprava.obec.min.char">Obec u dopravního spojení musí obsahovat minimálně dva znaky, aby se dal vyhledat celý název obce!</text>
+	<text id="text.onlineInfo.vzdelaniZm.ne">Požadované vzdělání je nižší než vyšší odborné, nelze podat žádost o zaměstnaneckou kartu.</text>
+	<text id="text.onlineInfo.pvmPocetVmNab.nabizise">Zaměstnavatel stále hledá zaměstnance na danou pozici.</text>
+	<text id="send.vm.podminka.nazev">Název generované podmínky</text>
+	<text id="text.vm.smennost.ctyr">Čtyřsměnný provoz</text>
+	<text id="text.vm.zm">Zaměstnanecké karty</text>
+	<text id="text.stat.profese">Hledaný text</text>
+	<text id="errors.maxlength">{0} nemůže být delší než {1} znaků.</text>
+	<text id="text.hledani.ozp">Pro osoby se &lt;span class=&quot;OKbold&quot;&gt;zdravotním postižením&lt;/span&gt;</text>
+	<text id="text.form.modre.karty.jen.nabizene">Jen nabízené MK</text>
+	<text id="text.vhodnost.3">Málo vhodné</text>
+	<text id="text.smazat.podminku">Smazat podmínku</text>
+	<text id="text.hledani.ubytovani">S &lt;span class=&quot;OKbold&quot;&gt;ubytováním&lt;/span&gt;</text>
+	<text id="text.posilat">Posílat</text>
+	<text id="text.onlineInfo.mzdaMk.ano">Minimální mzda přesahuje 1,5násobek průměrné mzdy.</text>
+	<text id="text.vzdelani.zakl">Základní vzdělání</text>
+	<text id="text.form.zelene.karty.klicovy.personal">Klíčový personál</text>
+	<text id="text.oznaceni.typ3">Posláno pomocí SMS</text>
+	<text id="text.hledani.dny.1">Za poslední &lt;span class=&quot;OKbold&quot;&gt;den&lt;/span&gt;</text>
+	<text id="text.vm.poznamka">Poznámka k volnému místu</text>
+	<text id="text.form.zelene.karty.typ.B">Typ B</text>
+	<text id="text.vhodnost.1">Velmi vhodné</text>
+	<text id="text.prac.se.nezeverejnuje">Pracoviště se nezveřejňuje.</text>
+	<text id="text.vyber.nazev">Název podmínky</text>
+	<text id="text.hledani.obor.vs">Pro vyskoškolsky vzdělané, specialisty a vedoucí pracovníky v oboru zaměstnání &lt;span class=&quot;OKbold&quot;&gt;{0}&lt;/span&gt;</text>
+	<text id="text.rozsah.obec">Vybraná obec</text>
+	<text id="text.overeni.emailu.neoveren">Pokud máte zájem o zasílání nových nebo změněných volných míst na Vaši e-mailovou adresu &lt;b&gt;{0}&lt;/b&gt;, musíte provést ověření platnosti Vaší e-mailové adresy ve Vašem &lt;a href=&quot;{1}&quot; class=&quot;OKdistinct2&quot; title=&quot;Uživatelský účet&quot;&gt;uživatelském účtu&lt;/a&gt;.</text>
+	<text id="text.vyber.upresneni">Upřesnění výběru</text>
+	<text id="js.text.delete.vyber">Přejete si smazat výběrovou podmínku</text>
+	<text id="text.stat.poradi">Pořadí</text>
+	<text id="text.onlineInfo.statniSprava.ano">Volné místo je pro úředníka územního samosprávného celku nebo zaměstnance, který ve správním úřadě vykonává státní správu.</text>
+	<text id="send.vm.zadna.part1">Vámi zadané podmínce</text>
+	<text id="text.vm.vhodna.pro.nevid.adv">Vhodnost profese pro nevidomé</text>
+	<text id="text.prelozit">Google překlad</text>
+	<text id="text.hledani.dny">Za posledních &lt;span class=&quot;OKbold&quot;&gt;{0,number,integer}&lt;/span&gt; dní</text>
+	<text id="js.error.XMLHttpRequest">Došlo k chybě při načítání počtu oboru v okresech.</text>
+	<text id="text.vm.mk">Modré karty</text>
+	<text id="text.zk.pocty.info2">Celkový počet &lt;b&gt;rezervací&lt;/b&gt; pro zelené karty: &lt;b&gt;{0}&lt;/b&gt;, z toho počet &lt;b&gt;podaných&lt;/b&gt; žádostí: &lt;b&gt;{1}&lt;/b&gt;, &lt;b&gt;vyhověných&lt;/b&gt; žádostí: &lt;b&gt;{2}&lt;/b&gt; a &lt;b&gt;vydaných&lt;/b&gt; zelených karet: &lt;b&gt;{3}&lt;/b&gt;.</text>
+	<text id="text.vm.id.Centrum">Číslo volného místa</text>
+	<text id="text.vyber.maximum">Můžete mít uloženo maximálně {0} podmínek.</text>
+	<text id="text.onlineInfo.vm.pocet.mist">Průběh počtu volných míst</text>
+	<text id="text.vm.pro.zakladni.link">uchazeče se základním vzděláním</text>
+	<text id="send.vm.zde">zde</text>
+	<text id="title.vmsearch">Hledání volných míst</text>
+	<text id="text.vm.zk.pocetVm">Počet míst pro zelené karty</text>
+	<text id="text.vm.pracpravvztah.pracpomer">Pracovní poměr</text>
+	<text id="text.tridit.podle">&lt;span class=&quot;OKbold&quot;&gt;Třídit&lt;/span&gt; podle</text>
+	<text id="text.hledani.suffix.vm.234">&lt;span class=&quot;OKbold&quot;&gt;{0,number,integer}&lt;/span&gt; volná místa</text>
+	<text id="text.hledani.profese.234">Profesi &lt;span class=&quot;OKbold&quot;&gt;{0}&lt;/span&gt;</text>
+	<text id="text.vm.mk.nastaveni.nenabizet.pro.up.ano">Volné místo &lt;b&gt;má&lt;/b&gt; nastaven &lt;b&gt;požadavek ÚP na vyjmutí&lt;/b&gt; z nabídky pro modré karty.</text>
+	<text id="text.dotaz.vm">poslat dotaz zaměstnavateli</text>
+	<text id="text.tisk">Tisk</text>
+	<text id="text.vm.pro.ubytovani.link">ubytováním</text>
+	<text id="text.hledani.profese.1">Profesi &lt;span class=&quot;OKbold&quot;&gt;{0}&lt;/span&gt;</text>
+	<text id="text.xml.sablona.8.nazev">A3 na šířku s detaily</text>
+	<text id="send.vm.body.title">Automatické zasílání volných míst úřadu práce ze serveru</text>
+	<text id="text.onlineInfo.pvmDo.konec.platnosti">Volné místo obsahovalo nabídku zaměstnání na dobu určitou do {0}.</text>
+	<text id="text.onlineInfo.vm.zk.nastaveni.nenabizet.pro.mpsv.ne">Volné místo nemá nastaven příznak MPSV pro vyjmutí z nabídky pro zelené karty.</text>
+	<text id="text.vm.pro.vyuc.link">uchazeče vyučené</text>
+	<text id="text.onlineInfo.firNenabizetVmProZk.ne">Zaměstnavatel apriori nevyloučil svá volná místa z nabídky pro zelené karty.</text>
+	<text id="text.onlineInfo.pvmVyraditDne.neni.nastaveno">Volné místo nemá nastaveno datum expirace.</text>
+	<text id="text.form.kc.za.mesic">Kč/měsíc</text>
+	<text id="text.onlineInfo.vm.mk.nastaveni.nenabizet.pro.mpsv.ne">Volné místo nemá nastaven příznak MPSV pro vyjmutí z nabídky pro modré karty.</text>
+	<text id="text.skryj.form">Skryj vyhledávací formulář</text>
+	<text id="error.vyber.adv">Pro výběr volných míst musíte mít zadánu minimálně jednu z těchto podmínek:&lt;ol class=&quot;OKexclamation2&quot;&gt;&lt;li&gt;vyberte okres nebo okresy, ve kterých chcete hledat volná místa,&lt;/li&gt;&lt;li&gt;zadejte názec firmy nebo IČ firmy,&lt;/li&gt;&lt;li&gt;vyberte výhodu volného místa.&lt;/li&gt;&lt;li&gt;zadejte obec u dopravního spojení&lt;/li&gt;&lt;li&gt;zadejte referenční číslo volného místa&lt;/li&gt;&lt;/ol&gt;</text>
+	<text id="napoveda.alt">Kontextová nápověda</text>
+	<text id="text.vm.pracoviste.a.kontakty">Pracoviště a kontakty</text>
+	<text id="text.vm.mk.nastaveni.nenabizet.pro.up.presunuto">Pro vložení nového požadavku na vyjmutí volného místa z nabízení pro modré karty si poznamenejte jeho číslo a proveďte &quot;Podání podnětu na vyjmutí volného místa z nabídky pro modré karty&quot; v aplikaci &quot;Evidence volných míst pro zelené, modré a zaměstnanecké karty&quot;.</text>
+	<text id="text.vm.zk.nastaveni.nenabizet.pro.ministr.ano">Volné místo &lt;b&gt;má&lt;/b&gt; nastaven &lt;b&gt;příznak MPSV pro vyjmutí&lt;/b&gt; z nabídky pro zelené karty &lt;b&gt;se souhlasem ministra&lt;/b&gt;.</text>
+	<text id="text.vm.pro.vs.link">vysokoškoláky</text>
+	<text id="error.vyber.okres.doprava">Vyberte okres, ve kterém chcete hledat volná místa nebo obec u dopravního spojení.</text>
+	<text id="text.onlineInfo.souhlasZamMk.ne">Volné místo nemá nastaven souhlas zaměstnavatele se zařazením do evidence pro modré karty.</text>
+	<text id="text.zasilano.sms">zasílá se SMS 1x týdně v neděli do</text>
+	<text id="anketa.prolog">Anketa:</text>
+	<text id="text.vm.pracpravvztah">Pracovněprávní vztah</text>
+	<text id="text.s.maturitou.popis">Místa pro uchazeče s úplným středoškolským vzděláním</text>
+	<text id="text.vzdelani">Vzdělání</text>
+	<text id="text.hlavni.stranka">Hlavní stránka portálu MPSV</text>
+	<text id="error.ajax.dotaz">Před pokračováním musíte opravit následující chyby:</text>
+	<text id="text.vm.pro.abs.mlad">Volná místa pro mladistvé uchazeče</text>
+	<text id="text.hledani.vhodnost.suffix">pro zadané postižení.</text>
+	<text id="text.stat.vmref">Volné místo</text>
+	<text id="text.hledani.vzd.vs">Pro uchazeče se &lt;span class=&quot;OKbold&quot;&gt;vysokoškolským vzděláním&lt;/span&gt;</text>
+	<text id="text.dotaz.email.text.zivotopis">
+
+Můj životopis naleznete na adrese:
+</text>
+	<text id="text.oznaceni.typ1">Nevybírat</text>
+	<text id="text.dojezd.pocet.spojeni">Počet spojení za hodinu</text>
+	<text id="text.onlineInfo.vm.zk.nastaveni.nenabizet.pro.ministr.ne">Volné místo nemá nastaven příznak MPSV pro vyjmutí z nabídky pro zelené karty se souhlasem ministra.</text>
+	<text id="text.row.count.1">&lt;span class=&quot;OKbold&quot;&gt;jedna&lt;/span&gt; nabídka zaměstnavatele, která obsahuje</text>
+	<text id="text.mzda.do">do &lt;span class=&quot;OKbold&quot;&gt;{0} Kč&lt;/span&gt;</text>
+	<text id="errors.footer">&lt;/ul&gt;&lt;hr class=&quot;OkRegionBorder&quot; style=&quot;height: 1px; border-bottom-width: 0px; border-left-width: 0px; border-right: 0px;&quot;&gt;</text>
+	<text id="text.vm.smennost.try">Třísměnný provoz</text>
+	<text id="text.zobraz.form">Zobraz vyhledávací formulář</text>
+	<text id="text.hledani.slaboz.2">V profesích označených jako &lt;span class=&quot;OKbold&quot;&gt;vhodné pro slabozraké&lt;/span&gt;</text>
+	<text id="text.zruseni.zasilani.vm.storno">Zasílání volných míst podle podmínky &lt;span style=&quot;color: black;&quot;&gt;{0}&lt;/span&gt; bylo zachováno.</text>
+	<text id="text.vm.zamest.ma.povoleni.pro.cizince">Zaměstnavatel má povolení zaměstnávat cizince.</text>
+	<text id="text.vm.datum.zmeny">Poslední změna</text>
+	<text id="text.vysledek.hledani">Výsledek hledání volných míst</text>
+	<text id="send.vm.trideni.relevance">Podle relevance.</text>
+	<text id="text.vm.pro.zakladni">Volná místa pro uchazeče se základním vzděláním</text>
+	<text id="text.seznam.uloz.vyberu">- Seznam uložených výběrů -</text>
+	<text id="text.form.zelene.karty.jen.nabizene">Jen nabízené ZK</text>
+	<text id="text.hledani.vhodnost.3">&lt;a href=&quot;{0}&quot; title=&quot;Málo vhodná volná místa&quot; class=&quot;OKdistinct2&quot;&gt;málo vhodné&lt;/a&gt;</text>
+	<text id="text.hledani.profese">Profesi &lt;span class=&quot;OKbold&quot;&gt;{0}&lt;/span&gt;</text>
+	<text id="text.onlineInfo.vm.zk.nastaveni.nenabizet.pro.mpsv.ano">Volné místo má nastaven příznak MPSV pro vyjmutí z nabídky pro zelené karty.</text>
+	<text id="text.onlineInfo.pracPomerZm.ne">Pracovněprávní vztah není nastaven na pracovní poměr nebo na dohodu o pracovní činnosti, nelze podat žádost o zaměstnaneckou kartu.</text>
+	<text id="text.hledani.suffix.1">požaduje &lt;span class=&quot;OKbold&quot;&gt;jedna&lt;/span&gt; nabídka zaměstnavatele, která obsahuje</text>
+	<text id="text.vm.pro.abs.mlad.link">mladistvé uchazeče</text>
+	<text id="text.captcha.img.title">Kliknutím na obrázek dojde k přečtení textu.</text>
+	<text id="text.hledani.ostatni.1">Podmínkám vyhovuje &lt;span class=&quot;OKbold&quot;&gt;jedna&lt;/span&gt; nabídka zaměstnavatele, která obsahuje</text>
+	<text id="error.zadna.ref">Není zadáno referenční číslo volného místa.</text>
+	<text id="text.oddelovac">,</text>
+	<text id="error.vyber.save.nazev">Zadejte název výběrové podmínky!</text>
+	<text id="text.hledani.suffix.vm.right.234">ze &lt;span class=&quot;OKbold&quot;&gt;{0,number,integer}&lt;/span&gt; v ČR nabízených</text>
+	<text id="text.xml.sablona.1.xsl">volnamistaA4Portrait.xsl</text>
+	<text id="text.vm.zm.nastaveni.nenabizet.pro.up.ne">Volné místo &lt;b&gt;nemá&lt;/b&gt; nastaven &lt;b&gt;požadavek ÚP na vyjmutí&lt;/b&gt; z nabídky pro zaměstnanecké karty.</text>
+	<text id="text.onlineInfo.vm.dalsi.duvody.zk">Další důvody, proč by místo nemuselo být nabízeno (zelené karty)</text>
+	<text id="text.onlineInfo.pracUvazekMk.ano">Pracovní úvazek volného místa je plný.</text>
+	<text id="text.vm.Email">E-mail</text>
+	<text id="text.vm.pracovni.pomer">Pracovní poměr</text>
+	<text id="text.vm.pro.abs.vs">Volná místa pro absolventy vysokých škol</text>
+	<text id="text.nazev.vyberu.nahradit">Název již existuje.\nChcete ho nahradit?</text>
+	<text id="xml.vm.text">volná místa</text>
+	<text id="text.vm.id.ref">ref.</text>
+	<text id="text.hledani.od.data">Od &lt;span class=&quot;OKbold&quot;&gt;{0,date,d.M.yyyy}&lt;/span&gt;</text>
+	<text id="text.form.mzda.od">Mzda od</text>
+	<text id="text.obecne">Obecné</text>
+	<text id="text.vm.od">od</text>
+	<text id="text.overeni.emailu.zmena">Vaši e-mailovou adresu &lt;b&gt;{0}&lt;/b&gt; pro zasílání volných míst si můžete změnit ve Vašem &lt;a href=&quot;{1}&quot; class=&quot;OKdistinct2&quot; title=&quot;Uživatelský účet&quot;&gt;uživatelském účtu&lt;/a&gt;.</text>
+	<text id="errorpage.info2">Informace o chybě byla odeslána administrátorovi serveru.</text>
+	<text id="text.hledani.abs.vs">Pro &lt;span class=&quot;OKbold&quot;&gt;absolventy vysokých škol&lt;/span&gt;</text>
+	<text id="text.form.modre.karty.vyjmute">Jen vyjmutá z MK</text>
+	<text id="title.pravidla">Pravidla VM</text>
+	<text id="text.ano">Ano</text>
+	<text id="text.vm.mk.statni.sprava">Státní správa/samospráva</text>
+	<text id="text.hledani.obor.ss">Pro uchazeče s úplným středoškolským vzděláním v oboru zaměstnání &lt;span class=&quot;OKbold&quot;&gt;{0}&lt;/span&gt;</text>
+	<text id="text.hledani.suffix.vm.1">&lt;span class=&quot;OKbold&quot;&gt;jedno&lt;/span&gt; volné místo</text>
+	<text id="text.info.celkem.zasilano.emailem">Aktuálně {0,choice,0#\&#39;&lt;span class=&quot;OKbold&quot;&gt;\&#39;není zadána žádná\&#39;&lt;/span&gt;\&#39; žádost|1#je zadána \&#39;&lt;span class=&quot;OKbold&quot;&gt;\&#39;jedna\&#39;&lt;/span&gt;\&#39; žádost|1&lt;jsou zadány \&#39;&lt;span class=&quot;OKbold&quot;&gt;\&#39;{0}\&#39;&lt;/span&gt;\&#39; žádosti|4&lt;je zadáno \&#39;&lt;span class=&quot;OKbold&quot;&gt;\&#39;{0,number,integer}\&#39;&lt;/span&gt;\&#39; žádostí} o posílání volných míst.&lt;!-- počet uživatelelů: {1,number,integer} --&gt;</text>
+	<text id="text.vm.zm.pocetVmRezerv">Počet žádostí o zaměstnaneckou kartu</text>
+	<text id="errors.minlength">{0} nemůže být menší {1} znaků.</text>
+	<text id="text.hledani.suffix.nenalezena">nebyla nalezena &lt;span class=&quot;OKbold&quot;&gt;žádná&lt;/span&gt; nabídka volného místa.</text>
+	<text id="errors.email">{0} nemá platný formát.</text>
+	<text id="text.vyber.zasilat.emailem">Zasílat e-mailem</text>
+	<text id="text.hlavni.stranka.up">Hlavní stránka</text>
+	<text id="text.vm.uvazek.plny">Plný</text>
+	<text id="text.skryj.zobraz.form">Zobraz/Skryj formulář pro vyhledávání.</text>
+	<text id="text.onlineInfo.pvmVyraditDne.vyprsi.platnost">Volné místo má nastaveno datum expirace {0}.</text>
+	<text id="text.vzdelani.vs">Vysoká škola</text>
+	<text id="text.xml.sablona.3.nazev">A4 na šířku bez detailu</text>
+	<text id="errors.integer">{0} must be an integer.</text>
+	<text id="text.vm.Tel">Tel.</text>
+	<text id="text.hledani.vhodnost.1">&lt;a href=&quot;{0}&quot; title=&quot;Velmi vhodná volná místa&quot; class=&quot;OKdistinct2&quot;&gt;velmi vhodné&lt;/a&gt;</text>
+	<text id="text.hledani.suffix.vm.right">z &lt;span class=&quot;OKbold&quot;&gt;{0,number,integer}&lt;/span&gt; v ČR nabízených</text>
+	<text id="text.hledani.id.dotaz.nepovolen">Dotaz na volné místo není povolen.</text>
+	<text id="text.vm.smennost.nepre">Nepřetržitý provoz</text>
+	<text id="text.row.count.234">&lt;span class=&quot;OKbold&quot;&gt;{0,number,integer}&lt;/span&gt; nabídky zaměstnavatelů, které obsahují</text>
+	<text id="text.vm.smennost.delena">Dělené směny</text>
+	<text id="text.ulozit.podminku">Uložit podmínku</text>
+	<text id="text.nebo">nebo</text>
+	<text id="text.vm.za.dny.vse">bez omezení</text>
+	<text id="js.zmena.vm.error">Nepodařilo se aktualizovat záznam volného místa!</text>
+	<text id="send.vm.zadna.part2">na serveru</text>
+	<text id="text.nacist.podminku">Načíst podmínku</text>
+	<text id="text.ic.firmy.popis">Identifikační číslo firmy (IČO)</text>
+	<text id="errors.range">{0} musí být od {1} do {2}.</text>
+	<text id="text.vm.vhod.ozp">osoby se zdravotním postižením (OZP)</text>
+	<text id="text.xml.sablona.4.nazev">A4 na šířku s detaily</text>
+	<text id="text.zpet.info">Jestliže si přejete vybrat jinou obec nebo upřesnit dotaz na volná místa, zvolte tlačítko &quot;Zpět&quot;.</text>
+	<text id="text.onlineInfo.souhlasZamZk.ano">Volné místo má nastaven souhlas zaměstnavatele se zveřejněním v nabídce pro zelené karty.</text>
+	<text id="text.zadna.reakce">Nemáte &lt;strong&gt;žádné&lt;/strong&gt; odpovědi na vaše dotazy.</text>
+	<text id="format.date">d.M.yyyy</text>
+	<text id="text.rezim.zk">Hledání volných míst obsaditelných držiteli zelené karty</text>
+	<text id="text.stat.profese.pocet">Počet zadání</text>
+	<text id="text.onlineInfo.pvmPocetVmNab.nula">Zaměstnavatel aktuálně nehledá žádného zaměstnance na danou pozici.</text>
+	<text id="text.vm.praxe.v.rocich">požadovaná praxe v rocích</text>
+	<text id="text.onlineInfo.pvmSouhlasZamZm.ne">Volné místo nemá nastaven souhlas zaměstnavatele se zařazením do evidence pro zaměstnanecké karty.</text>
+	<text id="text.hledani.okres.okolni.okresy">Můžete zkusit omezit hledání jen na &lt;a href=&quot;{0}&quot; title=&quot;Hledat jen v zadaném okrese&quot; class=&quot;OKdistinct2&quot;&gt;zadaný okres&lt;/a&gt; nebo hledat v &lt;a href=&quot;{1}&quot; title=&quot;Hledat i v okolních okresech&quot; class=&quot;OKdistinct2&quot;&gt;okolních okresech&lt;/a&gt;.</text>
+	<text id="text.vm.pro.ss">Volná místa pro uchazeče s maturitou</text>
+	<text id="text.overeni.telefon.nezadan">Pokud máte zájem o zasílání nových nebo změněných volných míst na Váš mobilní telefon, musíte nejprve Vaše telefonní číslo zadat ve Vašem &lt;a href=&quot;{0}&quot; class=&quot;OKdistinct2&quot; title=&quot;Uživatelský účet&quot;&gt;uživatelském účtu&lt;/a&gt;.</text>
+	<text id="text.vm.zm.nastaveni.nenabizet.pro.ministr.ano">Volné místo &lt;b&gt;má&lt;/b&gt; nastaven &lt;b&gt;příznak MPSV pro vyjmutí&lt;/b&gt; z nabídky pro zaměstnanecké karty &lt;b&gt;se souhlasem ministra&lt;/b&gt;.</text>
+	<text id="text.vyhody.vm">Výhody volného místa</text>
+	<text id="text.onlineInfo.vm.dalsi.duvody.zm">Další důvody, proč by místo nemuselo být nabízeno (zaměstnanecké karty)</text>
+	<text id="text.oznaceni.sms.inner">SMS</text>
+	<text id="text.vm.vzdelani">Minimální stupeň vzdělání</text>
+	<text id="text.onlineInfo.vm.zk.nastaveni.nenabizet.pro.up.ne">Volné místo nemá nastaven požadavek ÚP na vyjmutí z nabídky pro zelené karty.</text>
+	<text id="text.vm.platnost.do">Platnost volného místa do</text>
+	<text id="text.rozsah.min">{0} minut</text>
+	<text id="text.onlineInfo.mzdaZm.ne">Sjednaná hrubá měsíční mzda (mzda OD) není alespoň ve výši minimální mzdy, nelze podat žádost o zaměstnaneckou kartu.</text>
+	<text id="text.skryt">Skrýt</text>
+	<text id="xml.vm.cas.vytvoreni">Čas vytvoření souboru</text>
+	<text id="send.vm.cas.vytvoreni">Čas vytvoření souboru</text>
+	<text id="text.onlineInfo.pvmSouhlasZamZk.ne">Volné místo nemá nastaven souhlas zaměstnavatele se zveřejněním v nabídce pro zelené karty.</text>
+	<text id="text.s.maturitou">S maturitou</text>
+	<text id="text.xml.download">Stáhnout XML</text>
+	<text id="text.xml.sablona.2.xsl">volnamistaA4PortraitDetail.xsl</text>
+	<text id="text.form.zamest.karty.nevyjmute">Jen nevyjmutá z ZM</text>
+	<text id="title.stat.vmref">Statistiky zobrazených volných míst</text>
+	<text id="send.vm.zadna.part3">nevyhovují žádné nabídky zaměstnavatelů</text>
+	<text id="text.nova.nebo.zmenena">Zobraz nová nebo změněná volná místa za posledních</text>
+	<text id="title.stat.runtime">Runtime statistiky volných míst</text>
+	<text id="text.vybrete.okres">Vyberte okres ve kterém chcete hledat volná místa</text>
+	<text id="text.vyhody.vm.ostatni">Ostatní výhody (např. dovolená navíc atd.)</text>
+	<text id="text.onlineInfo.vm.zm.nastaveni.nenabizet.pro.ministr.ne">Volné místo nemá nastaven příznak MPSV pro vyjmutí z nabídky pro zaměstnanecké karty se souhlasem ministra.</text>
+	<text id="text.obor">Obor</text>
+	<text id="text.hledani.nevid.4">V profesích označených jako &lt;span class=&quot;OKbold&quot;&gt;nevhodné pro nevidomé&lt;/span&gt;</text>
+	<text id="text.vm.zm.pocetVm">Počet míst pro zaměstnanecké karty</text>
+	<text id="text.hledani.okres.vycet.okolni">Volná místa byla hledána v okresech: &lt;span class=&quot;OKbold&quot;&gt;{0}&lt;/span&gt;, včetně &lt;span class=&quot;OKbold&quot;&gt;okolních okresů&lt;/span&gt;.</text>
+	<text id="text.onlineInfo.vzdelaniMk.ne">Požadované vzdělání je nižší než vyšší odborné, nelze podat žádost o modrou kartu.</text>
+	<text id="text.vm.zk.nastaveni.klicovy.personal.ano">Volné místo &lt;b&gt;má&lt;/b&gt; nastaven příznak vhodnosti pro &lt;b&gt;klíčový personál&lt;/b&gt;.</text>
+	<text id="text.xml.sablona.6.xsl">volnamistaA3PortraitDetail.xsl</text>
+	<text id="text.vyber.ulozit">Ulož</text>
+	<text id="text.vm.pro.abs.vs.link">absolventy vysokých škol</text>
+	<text id="text.vm.mk.pocetVm">Počet míst pro modré karty</text>
+	<text id="text.xml.sablona.6.nazev">A3 na výšku s detaily</text>
+	<text id="error.vyber.delete.id">Výběrová podmínka již byla smazána!</text>
+	<text id="text.vice">Více ...</text>
+	<text id="send.vm.zruseni.zasilani">Zrušení zasílání volných míst provedete</text>
+	<text id="text.oznaceni.inner">označená</text>
+	<text id="text.hledani.ciz">Vhodné pro &lt;span class=&quot;OKbold&quot;&gt;cizince&lt;/span&gt;</text>
+	<text id="send.vm.trideni">Data jsou tříděna</text>
+	<text id="text.vm.tel">tel.</text>
+	<text id="js.text.zrusit.oznacena.vm">Máte označená volná místa pro tisk.\nBudete-li pokračovat, zruší se označení volných míst pro tisk.</text>
+	<text id="text.vm.mk.pocetVmRezerv">Počet žádostí o modrou kartu</text>
+	<text id="text.mk.pocty.info2">Celkový počet &lt;b&gt;rezervací&lt;/b&gt; pro modré karty: &lt;b&gt;{0}&lt;/b&gt;, z toho počet &lt;b&gt;podaných&lt;/b&gt; žádostí: &lt;b&gt;{1}&lt;/b&gt;, &lt;b&gt;vyhověných&lt;/b&gt; žádostí: &lt;b&gt;{2}&lt;/b&gt; a &lt;b&gt;vydaných&lt;/b&gt; modrých karet: &lt;b&gt;{3}&lt;/b&gt;.</text>
+	<text id="title.max.requests">Přetížení aplikace volná místa</text>
+	<text id="text.km">km</text>
+	<text id="text.vm.zm.nastaveni.nenabizet.pro.mpsv.ano">Volné místo &lt;b&gt;má&lt;/b&gt; nastaven &lt;b&gt;příznak MPSV pro vyjmutí&lt;/b&gt; z nabídky pro zaměstnanecké karty.</text>
+	<text id="xml.vm.datum.vyrazeni">Datum vyřazení volného místa</text>
+	<text id="text.vm.adresa">adresa</text>
+	<text id="error.doprava.nejednoznacnost.obce">Nebyla nalezena obec u dopravního spojení s jednoznačným názvem v ČR</text>
+	<text id="text.vyuceni.a.ostatni.popis">Místa pro vyučené, středoškoláky bez maturity a uchazeče bez kvalifikace</text>
+	<text id="text.vyhody.vm.ubytovani">Ubytování</text>
+	<text id="errors.prefix">&lt;li&gt;</text>
+	<text id="text.vm.zk.statni.sprava">Státní správa/samospráva</text>
+	<text id="text.zruseni.zasilani.vm">Automatické zasílání volných míst úřadů práce ze serveru &lt;a href=&quot;http://portal.mpsv.cz&quot;&gt;http://portal.mpsv.cz&lt;/a&gt; podle vámi zadané podmínky &lt;span style=&quot;color: black;&quot;&gt;{0}&lt;/span&gt; bylo na vaši žádost ukončeno.&lt;br&gt;Opětovné zasílání volných míst můžete nastavit na stránce &lt;a href=&quot;http://portal.mpsv.cz/sz/obcane/vmjedno/vmrozsir&quot;&gt;http://portal.mpsv.cz/sz/obcane/vmjedno/vmrozsir&lt;/a&gt;. Pro nastavení automatického zasílání volných míst je potřeba být přihlášen.</text>
+	<text id="text.vm.pro.ubytovani">Volná místa s ubytováním</text>
+	<text id="text.xml.sablona.5.nazev">A3 na výšku bez detailu</text>
+	<text id="text.form.modre.karty.jen.nenabizene">Jen nenabízené MK</text>
+	<text id="text.vm.zk.nastaveni.nenabizet.pro.up.ne">Volné místo &lt;b&gt;nemá&lt;/b&gt; nastaven &lt;b&gt;požadavek ÚP na vyjmutí&lt;/b&gt; z nabídky pro zelené karty.</text>
+	<text id="text.Vcetne.okolnich.okresu">Včetně okolních okresů</text>
+	<text id="text.nove.okno">Otevření v novém okně</text>
+	<text id="text.vm.pocetVmRezervProPodanZm.zkratka">Pod.</text>
+	<text id="format.datetime">d.M.yyyy H:mm:ss</text>
+	<text id="attr.TypZaznamuKod.name">Kód záznamu</text>
+	<text id="title.vmsearch.centralni.evidence">Centrální evidence volných míst</text>
+	<text id="text.dojezd.pocet.prestupu">Počet přestupů</text>
+	<text id="text.download.url">Volná místa ve formátu HTML a XML jsou ke stažení na adrese</text>
+	<text id="text.minut">minut</text>
+	<text id="text.link.rozsirene.hledani">ROZŠÍŘENÉ HLEDÁNÍ</text>
+	<text id="text.hledani.suffix.vm">&lt;span class=&quot;OKbold&quot;&gt;{0,number,integer}&lt;/span&gt; volných míst</text>
+	<text id="text.zadejte.nazev.profese">Zadejte název profese, kterou chcete hledat!</text>
+	<text id="text.vm.mk.statni.sparava.samosprava">Volné místo pro státní správu nebo samosprávu.</text>
+	<text id="text.onlineInfo.pracPomerMk.ano">Pracovněprávní vztah je u volného místa nastaven na pracovní poměr.</text>
+	<text id="text.nebo.ic.firmy">nebo IČ firmy</text>
+	<text id="text.dojezd.vzdalenost.od.obce">od obce</text>
+	<text id="text.hledani.oznaceni.vse">S &lt;span class=&quot;OKbold&quot;&gt;označením&lt;/span&gt; nebo &lt;span class=&quot;OKbold&quot;&gt;bez označení&lt;/span&gt;</text>
+	<text id="text.zobrazit.vice.vm">Zobrazit více volných míst.</text>
+	<text id="text.vm.pro.abs.ss.link">absolventy středních škol</text>
+	<text id="text.hledani.mlad">Pro &lt;span class=&quot;OKbold&quot;&gt;mladistvé uchazeče&lt;/span&gt;</text>
+	<text id="text.hledani.nevid.2">V profesích označených jako &lt;span class=&quot;OKbold&quot;&gt;vhodné pro nevidomé&lt;/span&gt;</text>
+	<text id="text.hledani.ostatni.234">Podmínkám vyhovuje &lt;span class=&quot;OKbold&quot;&gt;{0,number,integer}&lt;/span&gt; nabídky zaměstnavatelů, které obsahují</text>
+	<text id="text.vm.zm.souhlas.zam">Souhlas zaměstnavatele</text>
+	<text id="text.vm.zk.nastaveni.nenabizet.pro.ministr.ne">Volné místo &lt;b&gt;nemá&lt;/b&gt; nastaven &lt;b&gt;příznak MPSV pro vyjmutí&lt;/b&gt; z nabídky pro zelené karty &lt;b&gt;se souhlasem ministra&lt;/b&gt;.</text>
+	<text id="text.pravidlo.like">doplněk WHERE</text>
+	<text id="text.hledani.suffix.234">požaduje &lt;span class=&quot;OKbold&quot;&gt;{0,number,integer}&lt;/span&gt; nabídky zaměstnavatelů, které obsahují</text>
+	<text id="text.vm.smennost.turnus">Turnusové služby</text>
+	<text id="text.hledani.obec.km">Volná místa byla hledána s dojezdem hromadnou dopravou do &lt;span class=&quot;OKbold&quot;&gt;{1,choice,1#jednoho kilometru|1&lt;{1} kilometrů|4&lt;{1,number,integer} kilometrů}&lt;/span&gt; z obce &lt;span class=&quot;OKbold&quot;&gt;{0}&lt;/span&gt;.</text>
+	<text id="text.hledani.vhodnost.4">&lt;a href=&quot;{0}&quot; title=&quot;Nevhodná volná místa&quot; class=&quot;OKdistinct2&quot;&gt;nevhodné&lt;/a&gt;</text>
+	<text id="text.option.okres.vyber">- - - Vyberte okres - - -</text>
+	<text id="text.rozsah.hd.do">či&lt;br&gt;vlakem nebo autobusem do</text>
+	<text id="error.vyber.write.db">Výběr se nepodařilo zapsat do DB.</text>
+	<text id="text.vm.dlohodobe.neobsazene">Místo je dlouhodobě neobsazené (v nabídce déle než tři měsíce).</text>
+	<text id="text.stat.okres">Okres</text>
+	<text id="text.onlineInfo.statniSprava.ne">Volné místo není pro úředníka územního samosprávného celku nebo zaměstnance, který ve správním úřadě vykonává státní správu.</text>
+	<text id="text.vm.za.dny.1">1 den</text>
+	<text id="attr.Jmeno.name">Vaše jméno</text>
+	<text id="text.xml.sablona.2.nazev">A4 na výšku s detaily</text>
+	<text id="title.vyber.okresu">Výběr okresu</text>
+	<text id="text.form.modre.karty.nevyjmute">Jen nevyjmutá z MK</text>
+	<text id="text.info.zasilani.vm.login">po &lt;a href=&quot;{0}&quot; class=&quot;OKdistinct2 OKbold&quot; title=&quot;Přihlášení&quot;&gt;přihlášení&lt;/a&gt;</text>
+	<text id="text.zruseni.zasilani.chyba">Chybné volání stránky!</text>
+	<text id="text.vm.zk.nastaveni.nenabizet.pro.mpsv.ano">Volné místo &lt;b&gt;má&lt;/b&gt; nastaven &lt;b&gt;příznak MPSV pro vyjmutí&lt;/b&gt; z nabídky pro zelené karty.</text>
+	<text id="info.absolventi.ss">Absolventem se rozumí zaměstnanec vstupující do zaměstnání na práci&lt;br&gt;odpovídající jeho kvalifikaci, jestliže celková doba jeho odborné praxe&lt;br&gt;nedosáhla po řádném (úspěšném) ukončení střední školy 2 let,&lt;br&gt;přičemž se do této doby nezapočítává doba mateřské nebo rodičovské dovolené.</text>
+	<text id="text.zasilano.emailem">zasílá se e-mailem do</text>
+	<text id="attr.ZaznamId.name">ID záznamu</text>
+	<text id="errors.header">&lt;span class=&quot;OkText2&quot;&gt;Musíte opravit následující chybu (y) před dalším pokračováním:&lt;/span&gt;&lt;ul class=&quot;OkText2&quot;&gt;</text>
+	<text id="text.vm.zm.nastaveni.nenabizet.pro.up.presunuto">Pro vložení nového požadavku na vyjmutí volného místa z nabízení pro zaměstnanecké karty si poznamenejte jeho číslo a proveďte &quot;Podání podnětu na vyjmutí volného místa z nabídky pro zaměstnanecké karty&quot; v aplikaci &quot;Evidence volných míst pro zelené, modré a zaměstnanecké karty&quot;.</text>
+	<text id="text.hledani.oznaceni.nabizet.a.nenabizet">S označením &lt;span class=&quot;OKbold&quot;&gt;zajímá mě&lt;/span&gt; nebo &lt;span class=&quot;OKbold&quot;&gt;nevybírat&lt;/span&gt;</text>
+	<text id="text.hledani.suffix.vm.right.1">z &lt;span class=&quot;OKbold&quot;&gt;jednoho&lt;/span&gt; v ČR nabízeného</text>
+	<text id="text.rozsah.vse">Všechny okresy</text>
+	<text id="send.vm.celkem.vm">Celkem volných míst</text>
+	<text id="text.onlineInfo.vm.zk.nastaveni.nenabizet.pro.ministr.ano">Volné místo má nastaven příznak MPSV pro vyjmutí z nabídky pro zelené karty se souhlasem ministra.</text>
+	<text id="text.vm.pracprav.vztah">Pracovněprávní vztah</text>
+	<text id="text.form.zamest.karty.souhlas.zam">Nastaven souhlas zaměstnavatele s ZM</text>
+	<text id="text.onlineInfo.pvmVyraditDne.konec.platnosti">Volné místo mělo nastaveno datum expirace {0}.</text>
+	<text id="text.nova.nebo.zmenena.od">Volná místa za</text>
+	<text id="text.nebo.profese">nebo profese</text>
+	<text id="text.vm.do">do</text>
+	<text id="text.vm.povolani">Požadovaná povolání</text>
+	<text id="text.form.zelene.karty.jen.nenabizene">Jen nenabízené ZK</text>
+	<text id="text.hledani.obec.min.km">Volná místa byla hledána s dojezdem hromadnou dopravou do &lt;span class=&quot;OKbold&quot;&gt;{1,choice,1#jedné minuty|1&lt;{1} minut|4&lt;{1,number,integer} minut}&lt;/span&gt; nebo &lt;span class=&quot;OKbold&quot;&gt;{2,choice,1#jednoho kilometru|1&lt;{2} kilometrů|4&lt;{2,number,integer} kilometrů}&lt;/span&gt; z obce &lt;span class=&quot;OKbold&quot;&gt;{0}&lt;/span&gt;.</text>
+	<text id="text.onlineInfo.firPokutaZaNelegPrac.bude.platit">Volné místo bude vyřazeno z nabídky od {0} do {1} z důvodu uložené pokuty zaměstnavateli za umožnění výkonu nelegální práce.</text>
+	<text id="text.onlineInfo.pracPomerMk.ne">Pracovněprávní vztah není u volného místa nastaven na pracovní poměr, nelze podat žádost o modrou kartu.</text>
+	<text id="text.onlineInfo.pvmSouhlasZamZk.ano">Volné místo má nastaven souhlas zaměstnavatele se zveřejněním v nabídce pro zelené karty.</text>
+	<text id="text.vm.datum.a.cas">Datum a čas</text>
+	<text id="text.onlineInfo.firNenabizetVmProZm.ne">Zaměstnavatel apriori nevyloučil svá volná místa z nabídky pro zaměstnanecké karty.</text>
+	<text id="text.link.nejcastejsi.dotazy">NEJČASTĚJŠÍ DOTAZY</text>
+	<text id="text.navigace.dalsi">Další</text>
+	<text id="title.dotaz.vm">Dotaz na volné místo</text>
+	<text id="text.vm.oznaceni.zmenit">Změnit označení volného místa</text>
+	<text id="text.option.obor.default">- - - Seznam oborů - - -</text>
+	<text id="xml.vm.title">Volná místa</text>
+	<text id="text.vm.pro.slaboz">slabozraké</text>
+	<text id="text.vm.zk.nastaveni.nenabizet.pro.up.presunuto">Pro vložení nového požadavku na vyjmutí volného místa ze zelených karet si poznamenejte jeho číslo a proveďte &quot;Podání podnětu na vyjmutí volného místa z nabídky pro zelené karty&quot; v aplikaci &quot;Evidence volných míst pro zelené, modré a zaměstnanecké karty&quot;.</text>
+	<text id="text.navigace.strana">Strana {0} z {1}</text>
+	<text id="text.firma.nazev">Název firmy</text>
+	<text id="text.onlineInfo.firPokutaZaNelegPrac.neni.nastaveno">Není evidována žádná pokuta zaměstnavateli za umožnění výkonu nelegální práce.</text>
+	<text id="text.form.modre.karty">Modré karty</text>
+	<text id="text.vzdelani.bez">Bez vzdělání</text>
+	<text id="js.text.vyber.pro.tisk">Vyber pro tisk</text>
+	<text id="text.vm.vyhody">Nabízené výhody</text>
+	<text id="text.form.zamest.karty.jen.nabizene">Jen nabízené ZM</text>
+	<text id="error.vyber.okres.max.adv">Vyberte okres nebo okresy, ve kterých chcete hledat volná místa. Maximálně můžete vybrat 10 okresů.</text>
+	<text id="text.form.zamest.karty.jen.nenabizene">Jen nenabízené ZM</text>
+	<text id="xml.vm.celkem.pozadavku">Celkem požadavků volných míst</text>
+	<text id="text.oznaceni.suffix">volná místa</text>
+	<text id="text.potvrzeni.zruseni.zasilani.vm">Přejete si zrušit zasílání VM podle podmínky &lt;span style=&quot;color: black;&quot;&gt;{0}&lt;/span&gt;?</text>
+	<text id="text.vm.pro.cizince.link">cizince</text>
+	<text id="text.dotaz.email.text.nabidky">
+
+Mou nabídku práce naleznete na adrese:
+</text>
+	<text id="info.vm.autor.firma">Nový nebo změněný požadavek odeslaný zaměstnavatelem na úřad práce.</text>
+	<text id="text.vm.za.dny.7">7 dní</text>
+	<text id="text.reference">Referenční číslo</text>
+	<text id="text.ulozene.vybery">Uložené výběry</text>
+	<text id="text.hledani.oznaceni.nabizet">S označením &lt;span class=&quot;OKbold&quot;&gt;zajímá mě&lt;/span&gt;</text>
+	<text id="text.vm.dovednosti">Požadované dovednosti</text>
+	<text id="text.kontakt.v.poznamce">Kontaktní informace jsou uvedeny v poznámce.</text>
+	<text id="text.hledani.slaboz.4">V profesích označených jako &lt;span class=&quot;OKbold&quot;&gt;nevhodné pro slabozraké&lt;/span&gt;</text>
+	<text id="send.vm.trideni.vzestupne">Podle abecedy vzestupně.</text>
+	<text id="text.form.zelene.karty.typ.A">Typ A</text>
+	<text id="errors.double">{0} must be a double.</text>
+	<text id="text.vm.zm.nastaveni.nenabizet.pro.mpsv.ne">Volné místo &lt;b&gt;nemá&lt;/b&gt; nastaven &lt;b&gt;příznak MPSV pro vyjmutí&lt;/b&gt; z nabídky pro zaměstnanecké karty.</text>
+	<text id="error.doprava.nazev.obce.nenalezen">Nebyla nalezena obec {0} u dopravního spojení</text>
+	<text id="text.hledani.rozsah.zmena.prefix">Můžete změnit rozsah hledání z obce &lt;span class=&quot;OKbold&quot;&gt;{0}&lt;/span&gt; na</text>
+	<text id="error.dotaz.kontakt">Musíte zadat kontakt na Vás. Zadejte e-mail nebo telefonní číslo.</text>
+	<text id="text.oznaceni.sms.suffix"/>
+	<text id="text.vm.mk.nastaveni.nenabizet.pro.ministr.ne">Volné místo &lt;b&gt;nemá&lt;/b&gt; nastaven &lt;b&gt;příznak MPSV pro vyjmutí&lt;/b&gt; z nabídky pro modré karty &lt;b&gt;se souhlasem ministra&lt;/b&gt;.</text>
+	<text id="text.onlineInfo.vm.zk.nastaveni.klicovy.personal.ne">Volné místo nemá nastaven příznak vhodnosti pro klíčový personál.</text>
+	<text id="text.vm.Adresa">Adresa</text>
+	<text id="text.onlineInfo.vm.mk.nastaveni.nenabizet.pro.ministr.ne">Volné místo nemá nastaven příznak MPSV pro vyjmutí z nabídky pro modré karty se souhlasem ministra.</text>
+	<text id="text.form.modre.karty.souhlas.zam">Nastaven souhlas zaměstnavatele s MK</text>
+	<text id="text.hledani.dny.234">Za poslední &lt;span class=&quot;OKbold&quot;&gt;{0,number,integer}&lt;/span&gt; dny</text>
+	<text id="text.vyber.neni.zadan.email">(nemáte zadán email)</text>
+	<text id="text.dni">dní</text>
+	<text id="text.top">Na začátek stránky</text>
+	<text id="text.hledani.obec.min">Volná místa byla hledána s dojezdem hromadnou dopravou do &lt;span class=&quot;OKbold&quot;&gt;{1,choice,1#jedné minuty|1&lt;{1} minut|4&lt;{1,number,integer} minut}&lt;/span&gt; z obce &lt;span class=&quot;OKbold&quot;&gt;{0}&lt;/span&gt;.</text>
+	<text id="text.vm.pocetVmProZm.zkratka">Míst</text>
+	<text id="text.nova.nebo.zmenena.od.adv">Zobraz volná místa od</text>
+	<text id="text.vyber.okres.popis">Více okresů vyberete pomocí stisknuté klávesy Ctrl&amp;nbsp;a&amp;nbsp;stiskem levého tlačítka myši na názvu okresu.</text>
+	<text id="text.vm.pro.bezbar.link">osoby vyžadující bezbariérový přístup</text>
+	<text id="text.vm.vhod.bezbar">osoby vyžadující bezbariérový přístup</text>
+	<text id="text.vm.email">e-mail</text>
+	<text id="text.vm.vhod.absol.vs">absolventy vysokých škol</text>
+	<text id="text.form.zamest.karty">Zaměstnanecké karty</text>
+	<text id="text.onlineInfo.mzdaZm.nezadana">Minimální mzda není zadána.</text>
+	<text id="text.form.zelene.karty">Zelené karty</text>
+	<text id="text.hledej">Hledat</text>
+	<text id="text.rozirene.hledani">Rozšířené hledání</text>
+	<text id="text.xml.option.bez.sablony">- - - Bez šablony - - -</text>
+	<text id="text.hledat.v.cele.cr">Hledat v celé ČR</text>
+	<text id="text.onlineInfo.mzdaMk.ne">Minimální mzda je menší než 1,5násobek průměrné mzdy, nelze podat žádost o modrou kartu.</text>
+	<text id="text.onlineInfo.mzdaMk.nezadana">Minimální mzda není zadána.</text>
+	<text id="text.form.zelene.karty.vyjmute">Jen vyjmutá ze ZK</text>
+	<text id="text.onlineInfo.vm.nabizeni">Omezení doby nabízení</text>
+	<text id="text.hledani.bez.pracoviste">Místa, kde &lt;span class=&quot;OKbold&quot;&gt;není určeno pracoviště&lt;/span&gt;</text>
+	<text id="text.podminka">Podmínka</text>
+	<text id="text.vm.pracpravvztah.dohodaprac">Dohoda o provedení práce</text>
+	<text id="error.maxlength.profese">U pložky profese můžete zadat maximálně {0} znaků.</text>
+	<text id="text.vm.pozad.profese">Požadovaná profese</text>
+	<text id="text.onlineInfo.vm.mk.nastaveni.nenabizet.pro.mpsv.ano">Volné místo má nastaven příznak MPSV pro vyjmutí z nabídky pro modré karty.</text>
+	<text id="errors.suffix">&lt;/li&gt;</text>
+	<text id="text.hledani.id">Bylo nalezeno &lt;span class=&quot;OKbold&quot;&gt;{0,number,integer}&lt;/span&gt; nabídek zaměstnavatelů, které obsahují</text>
+	<text id="text.vm.pro.ozp.link">osoby se zdravotním postižením</text>
+	<text id="text.form.zelene.karty.nevyjmute">Jen nevyjmutá ze ZK</text>
+	<text id="text.vm.dalsi.informace">Další informace</text>
+	<text id="text.vm.zk.typ">Typ zelené karty</text>
+	<text id="text.vhodnost.2">Vhodné</text>
+	<text id="text.hledani.vzd.zakl">Pro uchazeče se &lt;span class=&quot;OKbold&quot;&gt;základním vzděláním a bez vzdělání&lt;/span&gt;</text>
+	<text id="text.hledani.ostatni.nenalezeno">Podmínkám &lt;span class=&quot;OKbold&quot;&gt;nevyhovuje&lt;/span&gt; žádná z nabídek zaměstnavatelů.</text>
+	<text id="anketa.otazka">Jaké jsou Vaše zkušenosti s odezvou zaměstnavatelů na Vaši nabídku práce, pokud jste si ji zadali?</text>
+	<text id="text.xml.sablona.7.xsl">volnamistaA3Landscape.xsl</text>
+	<text id="text.tip">Tip</text>
+	<text id="text.onlineInfo.firPorusuje.platne">Volné místo je vyřazeno z nabídky od {0} do {1} z důvodu uložené pokuty zaměstnavateli za porušení předpisů.</text>
+	<text id="text.vm.vlastnosti">Vlastnosti volného místa</text>
+	<text id="text.vm.firma">Firma</text>
+	<text id="text.onlineInfo.pracUvazekMk.ne">Pracovní úvazek volného místa není plný, nelze podat žádost o modrou kartu.</text>
+	<text id="text.vyber.zasilat.sms">Zasílat SMS</text>
+	<text id="text.onlineInfo.vm.zk.nastaveni.klicovy.personal.ano">Volné místo má nastaven příznak vhodnosti pro klíčový personál.</text>
+	<text id="text.smazat">Smazat</text>
+	<text id="text.vm.mzda">Mzdové rozpětí</text>
+	<text id="text.rozsah.Okres">Vybraný okres</text>
+	<text id="text.xml.sablona.7.nazev">A3 na šířku bez detailu</text>
+	<text id="text.captcha">Opište text z obrázku</text>
+	<text id="text.xml.sablona.5.xsl">volnamistaA3Portrait.xsl</text>
+	<text id="text.onlineInfo.vm.zk.nastaveni.nenabizet.pro.up.ano">Volné místo má nastaven požadavek ÚP na vyjmutí z nabídky pro zelené karty.</text>
+	<text id="text.vm.mk.nastaveni">Nastavení pro modré karty</text>
+	<text id="text.xml.sablona.3.xsl">volnamistaA4Landscape.xsl</text>
+	<text id="text.zm.pocty.info1">Celkový počet volných míst: &lt;b&gt;{0}&lt;/b&gt;, z toho &lt;b&gt;pro zaměstnanecké karty&lt;/b&gt;: &lt;b&gt;{1}&lt;/b&gt;.</text>
+	<text id="text.vm.zm.nastaveni.nenabizet.pro.up.ano">Volné místo &lt;b&gt;má&lt;/b&gt; nastaven &lt;b&gt;požadavek ÚP na vyjmutí&lt;/b&gt; z nabídky pro zaměstnanecké karty.</text>
+	<text id="text.vm.vhodna.pro.slaboz">slabozraké</text>
+	<text id="text.onlineInfo.vm.dalsi.duvody">Další důvody, proč by místo nemuselo být nabízeno (společné)</text>
+	<text id="text.dotaz.email.predmet.default">Portál MPSV - dotaz na volné místo číslo: {0}</text>
+	<text id="text.vm.bez.pracoviste">Místa, kde není určeno pracoviště</text>
+	<text id="text.vzdelani.vyuc">Vyučen</text>
+	<text id="attr.Predmet.name">Předmět dotazu</text>
+	<text id="errors.creditcard">{0} is an invalid credit card number.</text>
+	<text id="errors.date">{0} is not a date.</text>
+	<text id="text.dojezdova.vzdalenost.do">Dojezdová vzdálenost do</text>
+	<text id="text.vyhody.vm.obe.podminky">obě podmínky současně</text>
+	<text id="text.vm.pro.nevid">nevidomé</text>
+	<text id="send.vm.subject">Volná místa z Integrovaného portálu MPSV podle podmínky &quot;{0}&quot;</text>
+	<text id="text.onlineInfo.vm.zm.nastaveni.nenabizet.pro.mpsv.ne">Volné místo nemá nastaven příznak MPSV pro vyjmutí z nabídky pro zaměstnanecké karty.</text>
+	<text id="text.onlineInfo.firNenabizetVmProZk.ano">Zaměstnavatel apriori vyloučil všechna svá volná místa z nabídky pro zelené karty.</text>
+	<text id="text.onlineInfo.vzdelaniMk.ano">Požadované vzdělání je vysokoškolské nebo vyšší odborné.</text>
+	<text id="text.hledani.oznaceni.nenabizet">S označením &lt;span class=&quot;OKbold&quot;&gt;nevybírat&lt;/span&gt;</text>
+	<text id="text.form.zelene.karty.nevyrizene">Nevyřízený požadavek ÚP na vyjmutí z nabídky pro ZK</text>
+	<text id="text.dojezd.na">Dojezd na</text>
+	<text id="text.hledani.id.1">Byla nalezena &lt;span class=&quot;OKbold&quot;&gt;jedna&lt;/span&gt; nabídka zaměstnavatele, která obsahuje</text>
+	<text id="text.hledani.suffix">požaduje &lt;span class=&quot;OKbold&quot;&gt;{0,number,integer}&lt;/span&gt; nabídek zaměstnavatelů, které obsahují</text>
+	<text id="link.vm.zk.vyplnit.zadost">Vyplnit žádost o zelenou kartu</text>
+	<text id="text.hledani.okres.vycet">Volná místa byla hledána v okresech: &lt;span class=&quot;OKbold&quot;&gt;{0}&lt;/span&gt;.</text>
+	<text id="attr.Email.name">Vaše e-mailová adresa</text>
+	<text id="text.ne">Ne</text>
+	<text id="text.vhodnost.4">Nevhodné</text>
+	<text id="text.zk.pocty.info1">Celkový počet volných míst: &lt;b&gt;{0}&lt;/b&gt;, z toho &lt;b&gt;pro zelené karty&lt;/b&gt;: &lt;b&gt;{1}&lt;/b&gt;.</text>
+	<text id="text.profese">Profese</text>
+	<text id="text.up.okres.title">Pokud chcete hledat volná místa podle ÚP, kterému přísluší VM, zaškrtněte tuto položku. Standardně jsou hledána VM podle okresu místa práce.</text>
+	<text id="text.rezim.mk">Hledání volných míst obsaditelných držiteli modré karty</text>
+	<text id="errors.long">{0} must be a long.</text>
+	<text id="text.vm.vhodna.pro.slaboz.adv">Vhodnost profese pro slabozraké</text>
+	<text id="text.vm.pracoviste">Pracoviště</text>
+	<text id="text.hledani.jen.v.okrese">Můžete zkusit omezit hledání jen na &lt;a href=&quot;{0}&quot; title=&quot;Hledat jen v zadaném okrese&quot; class=&quot;OKdistinct2&quot;&gt;zadaný okres&lt;/a&gt; nebo rozšířit hledání na &lt;a href=&quot;{1}&quot; title=&quot;Hledat ve všech okresech&quot; class=&quot;OKdistinct2&quot;&gt;všechny okresy&lt;/a&gt;.</text>
+	<text id="text.hledani.slaboz.1">V profesích označených jako &lt;span class=&quot;OKbold&quot;&gt;velmi vhodné pro slabozraké&lt;/span&gt;</text>
+	<text id="text.zadej.nazev.vyberu">Zadejte název podmínky!</text>
+	<text id="text.dojezd.doba">Trvání</text>
+	<text id="text.onlineInfo.pracPomerZm.ano">Pracovněprávní vztah je nastaven na pracovní poměr nebo na dohodu o pracovní činnosti.</text>
+	<text id="text.mzdove.rozpeti">Mzdové rozpětí</text>
+	<text id="text.overeni.emailu.nezadan">Pokud máte zájem o zasílání nových nebo změněných volných míst na Vaši e-mailovou adresu, musíte nejprve tuto adresu zadat ve Vašem &lt;a href=&quot;{0}&quot; class=&quot;OKdistinct2&quot; title=&quot;Uživatelský účet&quot;&gt;uživatelském účtu&lt;/a&gt;.</text>
+	<text id="text.hledani.vhodnost.2">&lt;a href=&quot;{0}&quot; title=&quot;Vhodná volná místa&quot; class=&quot;OKdistinct2&quot;&gt;vhodné&lt;/a&gt;</text>
+	<text id="text.onlineInfo.vm.zm.nastaveni.nenabizet.pro.mpsv.ano">Volné místo má nastaven příznak MPSV pro vyjmutí z nabídky pro zaměstnanecké karty.</text>
+	<text id="text.minut.zkratka">min.</text>
+	<text id="text.vm.pocetVmRezervProVydanZm.zkratka">Vyd.</text>
+	<text id="text.vm.zk">Zelené karty</text>
+	<text id="text.vm.informace.poda">Informace podá</text>
+	<text id="link.vm.mk.vyplnit.zadost">Vyplnit žádost o modrou kartu</text>
+	<text id="text.xml.sablona.1.nazev">A4 na výšku bez detailu</text>
+	<text id="text.xml.sablona.4.xsl">volnamistaA4LandscapeDetail.xsl</text>
+	<text id="xml.vm.detail">Detail volného místa</text>
+	<text id="errors.float">{0} must be a float.</text>
+	<text id="text.vm.info.o.vm">Informace o volném místě obdržíte na ÚP</text>
+	<text id="text.vcetne.okolnich.okresu">včetně okolních okresů</text>
+	<text id="text.hledani.abs.ss">Pro &lt;span class=&quot;OKbold&quot;&gt;absolventy středních škol&lt;/span&gt;</text>
+	<text id="text.oznaceni.prefix">Vámi</text>
+	<text id="text.vm.vhod.mladistvi">mladistvé uchazeče</text>
+	<text id="text.vm.vhodne.pro.cizince">Zaměstnavatel je ochoten zaměstnat cizince.</text>
+	<text id="error.vyber.datum">Zadejte datum od kdy chcete vybrat volná místa a vyberte okres ve kterém chcete hledat volná místa.</text>
+	<text id="link.vm.nastaveni.ne">Zrušit nastavení</text>
+	<text id="text.vm.zk.statni.sparava.samosprava">Volné místo pro státní správu nebo samosprávu.</text>
+	<text id="text.option.okres.vse">- - - všechny okresy - - -</text>
+	<text id="errors.byte">{0} must be a byte.</text>
+	<text id="text.mzda.od">od &lt;span class=&quot;OKbold&quot;&gt;{0} Kč&lt;/span&gt;</text>
+	<text id="text.hledani.obec">Volná místa byla hledána v obci &lt;span class=&quot;OKbold&quot;&gt;{0}&lt;/span&gt;.</text>
+	<text id="text.tridit.podle.relevance">relevance</text>
+	<text id="text.onlineInfo.firPorusuje.neni.nastaveno">Není evidována žádná pokuta zaměstnavateli za porušení předpisů.</text>
+	<text id="text.vyber.obce">Vyberte obec, ze které si přejete vypočítat dopravní spojení</text>
+	<text id="text.vm.zk.nastaveni.nenabizet.pro.mpsv.ne">Volné místo &lt;b&gt;nemá&lt;/b&gt; nastaven &lt;b&gt;příznak MPSV pro vyjmutí&lt;/b&gt; z nabídky pro zelené karty.</text>
+	<text id="text.dojezd.cena.neuvedena">neuvedena</text>
+	<text id="errors.required">{0} je povinný údaj.</text>
+	<text id="text.navigace.predchozi">Předchozí</text>
+	<text id="js.error.vyber.adv">Pro výběr volných míst musíte mít zadánu minimálně jednu z těchto podmínek:\n\n1. vyberte okres nebo okresy, ve kterých chcete hledat volná místa\n2. zadejte názec firmy nebo IČ firmy\n3. vyberte výhodu volného místa\n4. zadejte obec u dopravního spojení\n5. zadejte referenční číslo volného místa</text>
+	<text id="text.vm.zm.statni.sprava">Státní správa/samospráva</text>
+	<text id="text.zm.pocty.info2">Celkový počet &lt;b&gt;rezervací&lt;/b&gt; pro zaměstnanecké karty: &lt;b&gt;{0}&lt;/b&gt;, z toho počet &lt;b&gt;podaných&lt;/b&gt; žádostí: &lt;b&gt;{1}&lt;/b&gt;, &lt;b&gt;vyhověných&lt;/b&gt; žádostí: &lt;b&gt;{2}&lt;/b&gt; a &lt;b&gt;vydaných&lt;/b&gt; zaměstnaneckých karet: &lt;b&gt;{3}&lt;/b&gt;.</text>
+	<text id="text.storno">Zpět</text>
+	<text id="text.info.zasilani.vm.nastaveni">Nastavení provedete</text>
+	<text id="title.stop.send.vm">Zrušení zasílání volných míst</text>
+	<text id="info.absolventi.vs">Absolventem se rozumí zaměstnanec vstupující do zaměstnání na práci&lt;br&gt;odpovídající jeho kvalifikaci, jestliže celková doba jeho odborné praxe&lt;br&gt;nedosáhla po řádném (úspěšném) ukončení vysoké školy 2 let,&lt;br&gt;přičemž se do této doby nezapočítává doba mateřské nebo rodičovské dovolené.</text>
+	<text id="text.z.obce">Z obce</text>
+	<text id="text.nacist">Načíst</text>
+	<text id="text.onlineInfo.firPokutaZaNelegPrac.platne">Volné místo je vyřazeno z nabídky od {0} do {1} z důvodu uložené pokuty zaměstnavateli za umožnění výkonu nelegální práce.</text>
+	<text id="text.vzdelani.mat">Maturita</text>
+	<text id="text.hledani.id.234">Byly nalezeny &lt;span class=&quot;OKbold&quot;&gt;{0,number,integer}&lt;/span&gt; nabídky zaměstnavatelů, které obsahují</text>
+	<text id="text.vm.pro">Volná místa pro</text>
+	<text id="text.onlineInfo.mzdaZm.ano">Sjednaná hrubá měsíční mzda (mzda OD) je alespoň ve výši minimální mzdy.</text>
+	<text id="text.vyuceni.a.ostatni">Vyučení a ostatní</text>
+	<text id="text.vm.pro.vs">Volná místa pro vysokoškoláky</text>
+	<text id="text.hledani.slaboz.3">V profesích označených jako &lt;span class=&quot;OKbold&quot;&gt;málo vhodné pro slabozraké&lt;/span&gt;</text>
+	<text id="text.jednoduche.hledani">Jednoduché hledání</text>
+	<text id="text.hledani.suffix.vm.right.mk">pro modré karty</text>
+	<text id="text.tridit.podle.data">data</text>
+	<text id="text.vm.za.dny.14">14 dní</text>
+	<text id="text.vm.mk.zamestanavatel.nedal.souhlas">Zaměstnavatel nedal souhlas se zařazením volného místa do evidence pro modré karty.</text>
+	<text id="send.vm.zmena.za.obdobi">Změny za období od - do</text>
+	<text id="text.oznaceni.typ0">Neoznačeno</text>
+	<text id="text.obec">Obec</text>
+	<text id="link.vm.zm.vyplnit.zadost">Vyplnit žádost o zaměstnaneckou kartu</text>
+	<text id="link.vm.nastaveni.ano">Nastavit</text>
+	<text id="text.dojezd.cena">Cena</text>
+	<text id="errorpage.info3">Číslo chyby: VMUP-ERR-{0}.</text>
+	<text id="text.vm.pocetVmRezervProZm.zkratka">Rez.</text>
+	<text id="text.hledani.profese.nenalezena">Pro zadanou profesi &lt;span class=&quot;OKbold&quot;&gt;{0}&lt;/span&gt;</text>
+	<text id="text.vm.pocetVmRezervProVyhovZm.zkratka">Vyh.</text>
+	<text id="errors.short">{0} must be a short.</text>
+	<text id="error.vyber.okres">Vyberte okres, ve kterém chcete hledat volná místa.</text>
+	<text id="text.vm.zm.nastaveni.nenabizet.pro.ministr.ne">Volné místo &lt;b&gt;nemá&lt;/b&gt; nastaven &lt;b&gt;příznak MPSV pro vyjmutí&lt;/b&gt; z nabídky pro zaměstnanecké karty &lt;b&gt;se souhlasem ministra&lt;/b&gt;.</text>
+	<text id="text.vm.pro.cizince">Volná místa vhodná pro cizince</text>
+	<text id="errorpage.info1">Na stránce došlo k chybě. Omlouváme se Vám za způsobené problémy.</text>
+	<text id="text.dotaz.ok">Váš dotaz byl zaznamenán.</text>
+	<text id="text.onlineInfo.pvmDo.neni.nastaveno">Volné místo obsahuje nabídku zaměstnání na dobu neurčitou.</text>
+	<text id="text.pravidlo.profese">Hledací text</text>
+	<text id="text.overeni.telefon.zmena">Vaše telefonní číslo &lt;b&gt;{0}&lt;/b&gt; pro zasílání volných míst si můžete změnit ve Vašem &lt;a href=&quot;{1}&quot; class=&quot;OKdistinct2&quot; title=&quot;Uživatelský účet&quot;&gt;uživatelském účtu&lt;/a&gt;.</text>
+	<text id="text.zadej.nazev.vyberu.dlouhy">Název podmínky je příliš dlouhý!\nMaximální délka názvu podmínky je {0} znaků!</text>
+	<text id="text.onlineInfo.pvmDatumVyrazeni.konec.platnosti">Volné místo bylo vyřazeno {0}.</text>
+	<text id="text.hledani.obor.zs">Pro vyučené, středoškoláky bez maturity a uchazeče bez kvalifikace v oboru zaměstnání &lt;span class=&quot;OKbold&quot;&gt;{0}&lt;/span&gt;</text>
+	<text id="text.vm.firma.ic">IČ</text>
+	<text id="text.vm.smennost">Směnnost</text>
+	<text id="text.onlineInfo.firNenabizetVmProZm.ano">Zaměstnavatel apriori vyloučil všechna svá volná místa z nabídky pro zaměstnanecké karty.</text>
+	<text id="text.hledani.oznaceni.sms">S označením &lt;span class=&quot;OKbold&quot;&gt;posláno pomocí SMS&lt;/span&gt;</text>
+	<text id="link.reakce">Moje dotazy na volná místa</text>
+	<text id="text.hledani.vzd.matu">Pro uchazeče se &lt;span class=&quot;OKbold&quot;&gt;maturitou&lt;/span&gt;</text>
+	<text id="text.ulozit">Uložit</text>
+	<text id="text.vyber.nezasilat">- Nezasílat -</text>
+	<text id="text.vm.pracpravvztah.dohodacinn">Dohoda o pracovní činnosti</text>
+	<text id="send.vm.trideni.sestupne">Podle datumu poslední změny sestupně.</text>
+	<text id="text.link.podle.oboru.zamestnani">PODLE OBORU ZAMĚSTNÁNÍ</text>
+	<text id="text.zpet">Zpět</text>
+	<text id="text.hledani.vzd.vyuc">Pro uchazeče se &lt;span class=&quot;OKbold&quot;&gt;vyučené&lt;/span&gt;</text>
+	<text id="text.vm.mk.souhlas.zam">Souhlas zaměstnavatele</text>
+	<text id="text.hledat.v.okrese">Hledat v okrese</text>
+	<text id="title.stat.profese">Volná místa hledaná pomocí profese</text>
+	<text id="text.onlineInfo.firNenabizetVmProMk.ne">Zaměstnavatel apriori nevyloučil svá volná místa z nabídky pro modré karty.</text>
+	<text id="error.doprava.nazev.obce.nezadan">Nebyla zadána obec pro hledání volných míst.</text>
+	<text id="text.ok">Odeslat</text>
+	<text id="text.adresa.nezadana">adresa nezadána</text>
+	<text id="text.vm.zk.nastaveni.nenabizet.pro.up.ano">Volné místo &lt;b&gt;má&lt;/b&gt; nastaven &lt;b&gt;požadavek ÚP na vyjmutí&lt;/b&gt; z nabídky pro zelené karty.</text>
+	<text id="text.hledani.v.okolnich.okresech">Můžete zkusit rozšířit hledání i na &lt;a href=&quot;{0}&quot; title=&quot;Hledat i v okolních okresech&quot; class=&quot;OKdistinct2&quot;&gt;okolní okresy&lt;/a&gt; nebo hledat ve &lt;a href=&quot;{1}&quot; title=&quot;Hledat ve všech okresech&quot; class=&quot;OKdistinct2&quot;&gt;všech okresech&lt;/a&gt;.</text>
+	<text id="attr.Telefon.name">Váš telefon</text>
+	<text id="title.stat.okres">Statistiky vybraných okresů</text>
+	<text id="text.vm.dopravni.spojeni">Dopravní spojení</text>
+	<text id="text.vm.mk.nastaveni.nenabizet.pro.mpsv.ne">Volné místo &lt;b&gt;nemá&lt;/b&gt; nastaven &lt;b&gt;příznak MPSV pro vyjmutí&lt;/b&gt; z nabídky pro modré karty.</text>
+	<text id="text.form.zamest.karty.nevyrizene">Nevyřízený požadavek ÚP na vyjmutí z nabídky pro ZM</text>
+	<text id="error.rozsah.invalid">Rozsah pro hledání nemá platnou hodnotu!</text>
+	<text id="text.vm.komu.se.hlasit">Komu se hlásit</text>
+	<text id="text.hledani.oznaceni.bez.nenabizet">S označením &lt;span class=&quot;OKbold&quot;&gt;zajímá mě&lt;/span&gt; nebo &lt;span class=&quot;OKbold&quot;&gt;bez označení&lt;/span&gt;</text>
+	<text id="text.up.okres">Podle zadávajícího ÚP</text>
+	<text id="text.vysokoskolaci.popis">Místa pro vyskoškolsky vzdělané, specialisty a vedoucí pracovníky</text>
+	<text id="text.onlineInfo.vm.zm.nastaveni.nenabizet.pro.ministr.ano">Volné místo má nastaven příznak MPSV pro vyjmutí z nabídky pro zaměstnanecké karty se souhlasem ministra.</text>
+	<text id="text.info.zasilani.vm">&lt;i&gt;Volná místa si můžete také nechat &lt;span class=&quot;OKbold&quot;&gt;posílat e-mailem&lt;/span&gt; nebo &lt;span class=&quot;OKbold&quot;&gt;pomocí SMS&lt;/span&gt;&lt;/i&gt;</text>
+	<text id="text.overeni.telefon.neoveren">Pokud máte zájem o zasílání nových nebo změněných volných míst na Váš mobilní telefon &lt;b&gt;{0}&lt;/b&gt;, musíte provést ověření platnosti Vašeho telefonního čísla ve Vašem &lt;a href=&quot;{1}&quot; class=&quot;OKdistinct2&quot; title=&quot;Uživatelský účet&quot;&gt;uživatelském účtu&lt;/a&gt;.</text>
+	<text id="text.mk.pocty.info1">Celkový počet volných míst: &lt;b&gt;{0}&lt;/b&gt;, z toho &lt;b&gt;pro modré karty&lt;/b&gt;: &lt;b&gt;{1}&lt;/b&gt;.</text>
+	<text id="errors.invalid">{0} je neplatný.</text>
+	<text id="text.vm.zk.pocetVmRezerv">Počet žádostí o zelenou kartu</text>
+	<text id="text.vyber.a.hledej">Vyber a hledej</text>
+	<text id="text.hledani.okres.vsechny">Volná místa byla hledána ve &lt;span class=&quot;OKbold&quot;&gt;všech okresech&lt;/span&gt;.</text>
+	<text id="text.vysokoskolaci">Vysokoškoláci</text>
+	<text id="text.onlineInfo.vm.mk.nastaveni.nenabizet.pro.ministr.ano">Volné místo má nastaven příznak MPSV pro vyjmutí z nabídky pro modré karty se souhlasem ministra.</text>
+	<text id="text.vm.uvazek">Pracovní úvazek</text>
+	<text id="text.form.modre.karty.nevyrizene">Nevyřízený požadavek ÚP na vyjmutí z nabídky pro MK</text>
+	<text id="xml.vm.celkem">Celkem volných míst</text>
+	<text id="text.hledani.suffix.vm.right.zk">pro zelené karty</text>
+	<text id="text.vm.pro.ozp">Volná místa pro osoby se zdravotním postižením</text>
+	<text id="text.vm.kc">Kč</text>
+	<text id="text.hledani.bezbar">S &lt;span class=&quot;OKbold&quot;&gt;bezbariérovým přístupem&lt;/span&gt;</text>
+	<text id="text.oznaceni.typ2">Zajímá mě</text>
+	<text id="text.okres">Okres</text>
+	<text id="text.onlineInfo.souhlasZamZm.ne">Volné místo nemá nastaven souhlas zaměstnavatele se zařazením do evidence pro zaměstnanecké karty.</text>
+	<text id="text.vm.kontakt.up">Kontakt na ÚP</text>
+	<text id="text.zasilani.vm.nenastaveno">Zasílání volných míst podle podmínky &lt;span style=&quot;color: black;&quot;&gt;{0}&lt;/span&gt; již bylo zastaveno.</text>
+	<text id="text.tridit.podle.abecedy">abecedy</text>
+	<text id="text.onlineInfo.pvmSouhlasZamMk.ne">Volné místo nemá nastaven souhlas zaměstnavatele se zařazením do evidence pro modré karty.</text>
+	<text id="text.dotaz.email.text.default">Dobrý den,
+zaujalo mě volné místo na pozici &quot;{0}&quot; ({1}{2}) nalezené na portálu MPSV ({3}) dne {4,date}.
+
+. . . z.d.e n.a.p.i.š.t.e s.v.ů.j d.o.t.a.z . . .</text>
+	<text id="title.stat.info">Doba po kterou probíhá sběr údajů</text>
+	<text id="text.vm.uvazek.zkraceny">Zkrácený</text>
+	<text id="text.vm.zk.souhlas.zam">Souhlas zaměstnavatele</text>
+	<text id="text.hledani.nevid.3">V profesích označených jako &lt;span class=&quot;OKbold&quot;&gt;málo vhodné pro nevidomé&lt;/span&gt;</text>
+	<text id="error.captcha.text">Chybně opsaný kontrolní text.</text>
+	<text id="text.vm.smennost.jedno">Jednosměnný provoz</text>
+	<text id="text.row.count">&lt;span class=&quot;OKbold&quot;&gt;{0,number,integer}&lt;/span&gt; nabídek zaměstnavatelů, které obsahují</text>
+	<text id="text.hledani.okres.jeden.okolni">Volná místa byla hledána v okrese &lt;span class=&quot;OKbold&quot;&gt;{0}&lt;/span&gt;, včetně &lt;span class=&quot;OKbold&quot;&gt;okolních okresů&lt;/span&gt;.</text>
+	<text id="attr.Text.name">Text dotazu</text>
+	<text id="text.hledani.suffix.vm.right.zm">pro zaměstnanecké karty</text>
+	<text id="text.vm.mk.nastaveni.nenabizet.pro.up.ne">Volné místo &lt;b&gt;nemá&lt;/b&gt; nastaven &lt;b&gt;požadavek ÚP na vyjmutí&lt;/b&gt; z nabídky pro modré karty.</text>
+	<text id="text.hledani.nevid.1">V profesích označených jako &lt;span class=&quot;OKbold&quot;&gt;velmi vhodné pro nevidomé&lt;/span&gt;</text>
+	<text id="text.vm.mk.nastaveni.nenabizet.pro.ministr.ano">Volné místo &lt;b&gt;má&lt;/b&gt; nastaven &lt;b&gt;příznak MPSV pro vyjmutí&lt;/b&gt; z nabídky pro modré karty &lt;b&gt;se souhlasem ministra&lt;/b&gt;.</text>
+	<text id="text.vm.vhodne.pro">Vhodné pro</text>
+	<text id="text.onlineInfo.souhlasZamZk.ne">Volné místo nemá nastaven souhlas zaměstnavatele se zveřejněním v nabídce pro zelené karty.</text>
+	<text id="text.rozsah.hd">Dojezd vlakem, autobusem do</text>
+	<text id="text.onlineInfo.pvmSouhlasZamMk.ano">Volné místo má nastaven souhlas zaměstnavatele se zařazením do evidence pro modré karty.</text>
+	<text id="text.hledani.okres.jeden">Volná místa byla hledána v okrese &lt;span class=&quot;OKbold&quot;&gt;{0}&lt;/span&gt;.</text>
+	<text id="info.vm.pretizene">&lt;h2&gt;Vyhledávání ve volných místech je přetížené!&lt;/h2&gt;&lt;p class=&quot;OkBasic2&quot;&gt;Zkuste to později.&lt;/p&gt;</text>
+	<text id="text.form.zelene.karty.typ.C">Typ C</text>
+	<text id="text.onlineInfo.vm.dalsi.duvody.mk">Další důvody, proč by místo nemuselo být nabízeno (modré karty)</text>
+	<text id="text.vm.smennost.pruzna">Pružná pracovní doba</text>
+	<text id="text.vm.zk.nastaveni.klicovy.personal.ne">Volné místo &lt;b&gt;nemá&lt;/b&gt; nastaven příznak vhodnosti pro &lt;b&gt;klíčový personál&lt;/b&gt;.</text>
+	<text id="send.vm.celkem.pozadavku">Celkem požadavků volých míst</text>
+	<text id="text.vm.vhod.zdrave.i.ozp">osoby zdravé i se zdravotním postižením (OZP)</text>
+</resource>
